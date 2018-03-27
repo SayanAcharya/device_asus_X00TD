@@ -72,7 +72,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # FM
 PRODUCT_PROPERTY_OVERRIDES += \
-	vendor.fm.a2dp.conc.disabled=false
+	vendor.fm.a2dp.conc.disabled=false \
+        ro.fm.transmitter=false
 
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -93,6 +94,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.demo.hdmirotationlock=false \
 	ro.opengles.version=196610 \
 	ro.sf.lcd_density=480 \
+	sdm.debug.rotator_downscale=1 \
 	vendor.display.enable_default_color_mode=1
 
 # LED
