@@ -259,6 +259,7 @@ VENDOR_SECURITY_PATCH := 2018-10-01
 # SELinux
 include device/qcom/sepolicy/Android.mk
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_SEPOLICY_VERS := 28.0
 
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
