@@ -450,4 +450,19 @@
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
+    <bool name="config_enableSmartPixels">true</bool>
+
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+       
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+    <bool name="config_ledCanPulse">true</bool>
+
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+    <bool name="config_multiColorNotificationLed">true</bool>
+
+    <integer name="config_num_physical_slots">2</integer>
 </resources>
