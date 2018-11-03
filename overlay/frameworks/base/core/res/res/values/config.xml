@@ -465,4 +465,8 @@
     <bool name="config_multiColorNotificationLed">true</bool>
 
     <integer name="config_num_physical_slots">2</integer>
+
+    <string-array name="config_ephemeralResolverPackage">
+        <item>com.google.android.gms</item>
+    </string-array>
 </resources>
