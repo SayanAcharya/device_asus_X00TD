@@ -302,19 +302,10 @@ WIFI_DRIVER_OPERSTATE_PATH := "/sys/class/net/wlan0/operstate"
 # inherit from the proprietary version
 -include vendor/asus/X00TD/BoardConfigVendor.mk
 TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8998
-#TARGET_QCOM_DISPLAY_VARIANT := caf-msm8998
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8998
 TARGET_QCOM_MEDIA_VARIANT := caf-msm8998
 TARGET_QCOM_AUDIO_VARIANT := caf-msm8998
 
-
-
-#PRODUCT_SOONG_NAMESPACES += \
-#    hardware/qcom/display-$(TARGET_QCOM_DISPLAY_VARIANT) \
-#    hardware/qcom/audio-$(TARGET_QCOM_AUDIO_VARIANT) \
-#    hardware/qcom/media-$(TARGET_QCOM_MEDIA_VARIANT) \
-
 QCOM_BOARD_PLATFORMS := sdm660
-#MSM_VIDC_TARGET_LIST := msm8998
-#BOARD_USES_ADRENO := true
 TARGET_USES_QCOM_MM_AUDIO := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
