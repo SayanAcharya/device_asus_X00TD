@@ -43,6 +43,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.bt.a2dp.aac_disable=true \
 	persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac \
 	qcom.bluetooth.soc=cherokee \
+        vendor.bluetooth.soc=cherokee \
 	ro.bluetooth.emb_wp_mode=true \
 	ro.bluetooth.wipower=true
 
@@ -200,13 +201,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.vendor.sdk.sensors.gestures=false \
-	ro.vendor.sensors.dev_ori=true \
-	ro.vendor.sensors.pmd=true \
-	ro.vendor.sensors.sta_detect=true \
-	ro.vendor.sensors.mot_detect=true \
-	ro.vendor.sensors.facing=false \
-	ro.vendor.sensors.cmc=false
+	ro.vendor.qti.sdk.sensors.gestures=false \
+	ro.vendor.qti.sensors.dev_ori=true \
+	ro.vendor.qti.sensors.pmd=true \
+	ro.vendor.qti.sensors.sta_detect=true \
+	ro.vendor.qti.sensors.mot_detect=true \
+	ro.vendor.qti.sensors.facing=false \
+	ro.vendor.qti.sensors.cmc=false
 
 # Skip Validate Disable
 PRODUCT_PROPERTY_OVERRIDES += \
